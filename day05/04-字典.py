@@ -20,7 +20,9 @@ print(my_dict2['like'][1])  # 游戏
 # print(my_dict2['hello'])  # 会报错
 print(my_dict2.get('hello'))  # 不会报错，但是会返回None
 
-
+# 字典.get(key, 数据值) 如果key存在，返回可以对应的value值，如果key不存在，返回书写的数据值
+print(my_dict2.get('hello', 'haha'))
+print(my_dict2.get('age', '年龄不存在'))
 
 
 
